@@ -14,7 +14,7 @@ namespace DiskScan
 
         static void Main(string[] args)
         {
-            var basedir = (args.Length > 0) ? args[0] : "c:\\dccu dev";
+            var basedir = (args.Length > 0) ? args[0] : "c:\\windows";
 
             var timer = new Stopwatch();
             timer.Start();
